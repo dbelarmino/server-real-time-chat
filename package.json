@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:local": "cross-env NODE_ENV=local nodemon src/socket-io.js",
-    "start:prod": "cross-env NODE_ENV=prod nodemon src/socket-io.js"
+    "start:local": "nodemon src/socket-io.js",
+    "start": "node src/socket-io.js"
   },
   "keywords": [],
   "author": "",
